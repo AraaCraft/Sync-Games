@@ -1,0 +1,33 @@
+{
+  "name": "sync-games",
+  "version": "0.1.0",
+  "description": "Sync Games",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "husky",
+    "sync-version": "node scripts/sync-version.js",
+    "test": "echo \"Error: no test specified\" && exit 0"
+  },
+  "keywords": [],
+  "author": {
+    "name": "AraaCraft",
+    "url": "https://github.com/AraaCraft"
+  },
+  "contributors": [
+    {
+      "name": "vpraion",
+      "url": "https://github.com/vpraion"
+    }
+  ],
+  "license": "ISC",
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.6.0",
+    "@commitlint/config-conventional": "^19.6.0",
+    "husky": "^9.1.7"
+  }
+}
